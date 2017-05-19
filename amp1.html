@@ -1,0 +1,1582 @@
+<!doctype html><html amp><head><meta charset="utf-8"><meta content=noindex name=robots><meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name=viewport><script async src="https://cdn.ampproject.org/rtv/021494957764037/v0.js"></script><script async custom-element="amp-ad" src="https://cdn.ampproject.org/rtv/021494957764037/v0/amp-ad-0.1.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/rtv/021494957764037/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-brightcove" src="https://cdn.ampproject.org/rtv/021494957764037/v0/amp-brightcove-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/rtv/021494957764037/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/rtv/021494957764037/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-sticky-ad" src="https://cdn.ampproject.org/rtv/021494957764037/v0/amp-sticky-ad-1.0.js"></script><link href="/i/s/www-dev.uat-thesun.co.uk/favicon.ico" rel=icon><link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" rel=stylesheet><link href="https://fonts.gstatic.com" rel="dns-prefetch preconnect"><link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C700%7CRoboto+Slab" rel=stylesheet><style amp-custom>
+	@font-face {
+	font-family: 'Tempo';
+	src: url('/r/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/fonts/TempoStd-HeavyCondensed.otf') format("opentype");
+}
+.amp-wp-enforced-sizes {
+	/** Our sizes fallback is 100vw, and we have a padding on the container; the max-width here prevents the element from overflowing. **/
+	max-width: 100%;
+}
+.amp-wp-unknown-size img {
+	/** Worst case scenario when we can't figure out dimensions for an image. **/
+	/** Force the image into a box of fixed dimensions and use object-fit to scale. **/
+	object-fit: contain;
+}
+/* Template Styles */
+.article__content, .amp-wp-title-bar div, .amp-more {
+			max-width: 960px;
+	margin: 0 auto;
+	}
+.amp-more {
+	font-size: 18px;
+	line-height: 1em;
+	text-transform: uppercase;
+	padding: 12px 0;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #D1D5D4;
+	font-family: "Tempo";
+}
+.amp-more-footer {
+	border-top: 1px solid #D1D5D4;
+}
+.amp-more a, .article__header_video .article__author-name a, .article__header_video .article__author-role a {
+	text-decoration: none;
+}
+.amp-more-alt {
+	color: #2f2e33;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.375;
+	background: #fff;
+	color: #3d596d;
+	padding-bottom: 100px;
+	-webkit-font-smoothing: antialiased;
+}
+.article__content {
+	padding: 0 20px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	font-weight: 400;
+	color: #232327;
+}
+.article__content .article__content {
+	padding: 0;
+}
+.article__headline-section {
+	margin: 0 0 12px 0;
+}
+.article__headline {
+	margin: 0 0 12px 0;
+	font-size: 24px;
+	line-height: 1.258;
+	font-weight: 700;
+	color: #2f2e33;
+	display: inline;
+}
+.amp-wp-meta {
+	margin-bottom: 12px;
+}
+p, ol, ul, figure {
+	margin: 0 0 12px 0;
+}
+a, a:visited {
+	color: #0087be;
+}
+a:hover, a:active, a:focus {
+	color: #33bbe3;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	line-height: 1em;
+	font-size: 18px;
+	margin: 0 0 13px 0;
+}
+h2 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 18px;
+}
+/* Meta */
+ul.amp-wp-meta {
+	padding: 24px 0 0 0;
+	margin: 0 0 24px 0;
+}
+ul.amp-wp-meta li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	line-height: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 300px;
+}
+ul.amp-wp-meta li:before {
+	content: "\2022";
+	margin: 0 8px;
+}
+ul.amp-wp-meta li:first-child:before {
+	display: none;
+}
+.amp-wp-meta, .amp-wp-meta a {
+	color: #4f748e;
+}
+/* Titlebar */
+nav.amp-wp-title-bar {
+	background: white;
+	border-bottom: 1px solid #d1d5d4;
+	padding: 0 12px;
+	position: relative;
+}
+nav.amp-wp-title-bar div {
+	background: no-repeat;
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/sunmasthead_mobile.svg');
+	height: 65px;
+	margin: 0 auto -12px;
+	width: 123px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+nav.amp-wp-title-bar a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	height: 100%;
+}
+/* Captions */
+.wp-caption-text,
+.article__media-caption, figcaption {
+	padding: 12px 20px;
+}
+/* Other Elements */
+amp-carousel {
+	background: #000;
+}
+amp-iframe, amp-youtube, amp-instagram, amp-vine {
+	background: #F3F6F7;
+}
+.amp-wp-iframe-placeholder {
+	background-size: 48px 48px;
+	min-height: 48px;
+}
+amp-carousel > amp-img > img {
+	object-fit: contain;
+}
+.amp-wp-iframe-placeholder {
+	background: #F3F6F7 no-repeat center 40%;
+	background-size: 48px 48px;
+	min-height: 48px;
+}
+.amp-ooyala {
+	display: block;
+	padding: 0px;
+	margin: 3px 0 21px;
+	background-color: #F3F6F7;
+	width: 100%;
+}
+.article__subdeck {
+	font-family: "Roboto Slab", serif;
+	margin: 0px 0px 10px 0px;
+	font-size: 16px;
+	line-height: 22px;
+}
+.article__subdeck p {
+	border-left: 5px solid;
+	padding-left: 10px;
+	margin-bottom: 0;
+}
+.article__subdeck ol {
+	border-left: 5px solid;
+	padding-left: 30px;
+}
+.article__meta {
+	margin-bottom: 5px;
+	font-size: 14px;
+	height: auto;
+	border-top: 1px solid #eaeeef;
+}
+.article__meta:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.article__name-date {
+	float: none;
+	display: inline;
+	line-height: 1.4em;
+}
+.article__author {
+	border-right: none;
+	line-height: 20px;
+	font-family: "Roboto Slab", serif;
+	margin: 0px 6px 0px 0px;
+	padding-right: 10px;
+}
+@media only screen and (max-width: 675px) {
+	.article__author {
+		display: block;
+		line-height: 20px;
+		padding-bottom: 2px;
+	}
+}
+.article__author-name, .article__author-role {
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 18px;
+	letter-spacing: normal;
+	color: #000000;
+	font-size: 13px;
+}
+.article-slug__copy,
+.teaser-slug__copy {
+	line-height: 0.8em;
+	position: absolute;
+}
+.article__published {
+	font-family: "Roboto Slab", serif;
+	color: #6a6a70;
+	display: block;
+}
+.article__content h2,
+.article__content h3,
+.article__content h4,
+.article__content h5 {
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 13px;
+	font-size: 18px;
+}
+.article__content h2 {
+	font-size: 22px;
+	line-height: 22px;
+}
+.article__content p a:hover {
+	text-decoration: underline;
+}
+.article__content {
+	font-size: 16px;
+	line-height: 22px;
+}
+.article__content ul {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 13px;
+	list-style-type: none;
+}
+.article__content ul li {
+	position: relative;
+	padding: 0 0 5px 17px;
+}
+.article__content ol {
+	padding-left: 17px;
+}
+.article__content ol li {
+	padding-bottom: 5px;
+}
+.article__content ul li:before {
+	content: "";
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/Bullet_point.svg');
+	background-size: 10px;
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+.article__media, figure {
+	display: block;
+	padding: 0px;
+	margin: 3px -24px 21px;
+	background-color: #F3F6F7;
+	width: 100%;
+}
+.article__media, figure {
+	margin-left: -20px;
+	margin-right: -20px;
+	width: auto;
+}
+.article__media img, figure img {
+	width: 100%;
+}
+.article__media-img-container {
+	position: relative;
+}
+.article__media-img-container p {
+	margin: 0;
+}
+.article__media-img-container img {
+	width: 100%;
+}
+.article__credit {
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 0px;
+	color: #FFFFFF;
+}
+.article__gallery-count-value {
+	color: #FFFFFF;
+	display: block;
+	padding: 4px 14px 4px 40px;
+	width: 100%;
+}
+.article__media-caption, figcaption {
+	font-family: "Roboto Slab", serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+}
+.article__content--intro {
+	font-weight: 700;
+}
+.article__quote {
+	display: inline-block;
+	font-family: "Roboto Slab", serif;
+	overflow: hidden;
+	position: relative;
+	font-weight: bold;
+	margin: 3px 0 17px;
+	width: 100%;
+}
+.article__quote:before, .article__quote:after {
+	background-color: #EAEEEF;
+	content: "";
+	height: 1px;
+	position: absolute;
+	width: 100%;
+}
+.article__quote:before {
+	left: 65px;
+	top: 0;
+}
+.article__quote:after {
+	bottom: 0;
+	left: 65px;
+}
+@media only screen and (max-width: 675px) {
+	.article__quote {
+		margin: 0 0 10px;
+	}
+	.article__quote:after {
+		left: 0;
+	}
+	.article__quote:before {
+		content: none;
+	}
+}
+.article__quote .article__quote-copy {
+	position: relative;
+	margin: 0px 20px 0px 65px;
+	padding: 18px 0 20px 0;
+}
+.article__quote .article__quote-copy p {
+	margin: 0;
+	font-size: 24px;
+	line-height: 29px;
+}
+@media only screen and (max-width: 675px) {
+	.article__quote .article__quote-copy {
+		padding: 45px 0 15px 0;
+		margin: 0;
+	}
+	.article__quote .article__quote-copy p {
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
+.article__quote .article__quote-copy.theme__before-color:before {
+	content: "";
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background-repeat: no-repeat;
+	left: -65px;
+	top: 0;
+	background-color: transparent;
+}
+.article__quote-credit {
+	display: block;
+	font-family: "Roboto Slab", serif;
+	font-weight: normal;
+	font-style: normal;
+	padding: 10px 0 0 0;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.article__quote-credit span {
+	font-weight: bold;
+	padding-right: 4px;
+}
+.article__quote-credit .quote-credit-meta:before {
+	content: ',';
+	font-weight: bold;
+	margin-left: -3px;
+	padding-right: 3px;
+}
+.article-slug, .teaser-slug {
+	color: #FFFFFF;
+	font-family: "Tempo";
+	text-transform: uppercase;
+}
+.article-slug:after, .teaser-slug:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.article-slug--article-page {
+	position: relative;
+	margin: 6px 10px 10px 0;
+	float: left;
+	padding: 9px 4px 2px;
+	line-height: 1em;
+	font-size: 14px;
+	top: 0%;
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+@media only screen and (max-width: 675px) {
+	.article-slug--article-page {
+		font-size: 14px;
+		margin: 8px 8px 0 0;
+		padding: 8px 5px 2px;
+		top: 0%;
+		-webkit-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%);
+		float: none;
+		display: inline-block;
+	}
+	.article__quote-credit {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}
+.article-slug--article-page .article-slug__copy {
+	position: relative;
+	font-size: 22px;
+}
+.article-slug__copy, .teaser-slug__copy {
+	line-height: 18px;
+	position: absolute;
+}
+.article-boxout {
+	margin-bottom: 25px;
+	margin-top: 3px;
+	font-family: "Roboto Slab", serif;
+}
+.article-boxout .article-boxout__headline {
+	color: #FFFFFF;
+	margin: 0;
+	padding: 13px 20px 13px 15px;
+	line-height: 1.2em;
+	text-transform: none;
+	border-left-style: solid;
+	border-left-width: 5px;
+}
+.article-boxout__content {
+	padding: 20px;
+	line-height: 1.2em;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-rule-style: solid;
+	-moz-column-rule-style: solid;
+	column-rule-style: solid;
+	-webkit-column-rule-width: 1px;
+	-moz-column-rule-width: 1px;
+	column-rule-width: 1px;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+	-webkit-column-rule-color: rgba(35, 35, 39, 0.2);
+	-moz-column-rule-color: rgba(35, 35, 39, 0.2);
+	column-rule-color: rgba(35, 35, 39, 0.2);
+}
+.article-boxout__content .article-boxout__content-img {
+	float: left;
+	margin: 5px 0 10px 0;
+	max-width: 100%;
+}
+.article-boxout__content .article-boxout__content-img img {
+	width: 100%;
+	vertical-align: text-bottom;
+}
+.article-boxout__content img {
+	width: 100%;
+}
+.article-boxout__content p {
+	line-height: 22px;
+	margin: 0 0 22px 0;
+	word-wrap: break-word;
+	float: left;
+	width: 100%;
+}
+.article-boxout__content p:last-child {
+	margin: 0;
+}
+.article-boxout__content p:last-child:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 4px;
+}
+.article-full .article-boxout__content {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+@media only screen and (max-width: 675px) {
+	.article-full .article-boxout__content {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+    .article-boxout__content ul li {
+		margin-bottom: 10px;
+	}
+	.article-boxout__content {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		padding: 15px;
+	}
+	.article-boxout__content p {
+		margin: 0 0 10px 0;
+	}
+	.article-boxout__content .article-boxout__content-img {
+		width: 100%;
+		margin: 0 0 8px 0;
+	}
+	.article-boxout__headline {
+		font-size: 20px;
+		line-height: 22px;
+		padding: 13px 15px 13px 10px;
+	}
+	.article__quote .article__quote-copy:before {
+		left: 0;
+		width: 45px;
+		height: 45px;
+	}
+}
+.article-boxout__content ul {
+	line-height: 22px;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+.article-boxout__content ul li {
+	padding: 0 0 0 20px;
+	margin-bottom: 22px;
+}
+.article-boxout__content ul li:before {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	top: 6px;
+}
+.article-boxout__content ul:last-child li:last-child {
+	margin-bottom: 0;
+}
+.article-boxout__content ul:last-child li:last-child:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 4px;
+}
+.article-boxout__content ol {
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: 22px;
+	float: left;
+	width: calc(100% - 20px);
+}
+.article-boxout__content ol li {
+	padding: 0;
+	margin-bottom: 22px;
+}
+@media only screen and (max-width: 675px) {
+	.article-boxout__content ol li {
+		margin-bottom: 10px;
+	}
+}
+.article-boxout__content ol:last-child li:last-child {
+	margin-bottom: 0;
+}
+.article-boxout__content ol:last-child li:last-child:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 4px;
+}
+.article__kicker {
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1.258;
+	font-weight: 700;
+	display: inline;
+}
+.font-small, .article__credit {
+	font-size: 10px;
+	line-height: 1em;
+}
+.amp-more a:after {
+	content: ' ';
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	background: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/arrow-more-nav-mobile-dark.svg') no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: -5px;
+	margin-left: 5px;
+}
+.article__header_video {
+	background: #232327;
+	margin-top: -1px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: 11px;
+	padding: 12px 24px 1px;
+	color: #FFF;
+}
+.article__header_video ul li:before{
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/Bullet_point-dark.svg');
+}
+.article__header_video .amp-more a:after {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/arrow-more-nav-mobile.svg');
+}
+.article__header_video .amp-more {
+	margin-top: -12px;
+}
+.article__header_video .article__headline, .article__header_video .article__published, .article__header_video .amp-more-alt, .article__header_video .article__updated, .article__header_video .article__author-name, .article__header_video .article__author-role, .article__header_video .article__author-name a, .article__header_video .article__author-role a {
+	color: #fff;
+}
+.article__header_video .article__updated {
+	border-left: 1px solid #fff;
+}
+.article__header_video .article__meta {
+    border-top: none;
+}
+.social-box {
+	padding: 5px 20px 0 20px;
+	background-color: #eaeeef;
+	margin: 0 -20px 20px -20px;
+}
+.article_standard .social-box {
+	margin: 0 0 20px 0;
+}
+.article__header_video .social-box {
+	background: none;
+	margin: 0 -20px 20px -20px;
+}
+@media only screen and (max-width: 1000px) {
+	.article__content .social-box {
+		margin: 0 -20px 20px -20px;
+	}
+}
+@media only screen and (max-width: 675px) {
+	.article__header_video .article__video {
+		margin: 0 -24px;
+	}
+	.article__content .social-box {
+		margin: 11px -20px 20px -20px;
+	}
+	.article__header_video .article__updated {
+		border-left: none;
+	}
+}
+amp-social-share {
+	margin-right: 8px;
+	background-size: 80%;
+	border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+}
+amp-social-share[type=whatsapp] {
+	display: inline-block;
+	background: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/whatsapp.svg') no-repeat center center;
+	background-opacity: 0;
+}
+a.homepage-link {
+	color: #FFF;
+	padding: 8px 10px;
+	position: relative;
+	display: block;
+}
+.homepage-link h3 {
+	font-family: "Tempo", sans-serif;
+	display: inline-block;
+	line-height: 49px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: normal;
+}
+@media only screen and (max-width: 374px) {
+	.homepage-link h3 {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 335px) {
+	.homepage-link h3 {
+		font-size: 13px;
+	}
+}
+.homepage-link .logo {
+	display: inline-block;
+	background: no-repeat;
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/sunmasthead_mobile.svg');
+	height: 40px;
+	width: 75px;
+	overflow: hidden;
+	line-height: 60px;
+	vertical-align: middle;
+	margin-left: 7px;
+	margin-top: 1px;
+}
+.homepage-link .arrow {
+	display: inline-block;
+	background: no-repeat;
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/arrow-more-nav-mobile.svg');
+	background-size: 100%;
+	height: 31px;
+	width: 30px;
+	overflow: hidden;
+	line-height: 60px;
+	vertical-align: middle;
+	position: absolute;
+	right: 10px;
+	top: 18px;
+	opacity: 0.8;
+}
+.homepage-link:hover .arrow {
+	opacity: 1;
+}
+amp-youtube {
+	margin: 0 -20px;
+}
+body .article_content_body a.homepage-link {
+	margin-bottom: 21px;
+}
+.theme-main a.homepage-link {
+	background-color: #4878a8;
+}
+amp-ad {
+	margin-bottom: 20px;
+}
+amp-sticky-ad {
+	background-color: #eaeeef;
+	bottom: 0;
+	min-height: 48px;
+	position: fixed;
+	width: 100%;
+	z-index: 110;
+	left: 0;
+	text-align: center;
+	margin-bottom: 0;
+}
+amp-sticky-ad amp-ad {
+	margin-bottom: 0;
+}
+.amp-adv-section {
+	text-align: center;
+}
+.article__media, figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+amp-img.aligncenter {
+	margin: 0px auto;
+}
+amp-img.alignright {
+	margin: 0 0 0 auto;
+}
+.align-right {
+	text-align: right;
+}
+.align-center {
+	text-align: center;
+}
+.article__content .sun-video-details h2, .sun-video-details p {
+	font-size: 30px;
+	line-height: 1.2em;
+	margin:0;
+	font-weight:500;
+}
+.article__content .sun-video-details h2 {
+	display:inline-block;
+	text-transform:uppercase;
+}
+.sun-video-details h2:before, .sun-video-details h2:after {
+	content: "'";
+}
+@media only screen and (max-width: 675px) {
+	.sun-video-details h2 {
+		font-size: 24px;
+		line-height: 27px;
+	}
+}
+.article__content .sun-video-details p {
+	display:inline;
+}
+@media only screen and (max-width: 675px) {
+	.sun-video-details p {
+		font-size: 24px;
+		line-height: 27px;
+	}
+}
+.sun-video-details .sun-video-description {
+	font-family: "Roboto Slab", "Helvetica Neue", Arial, sans-serif;
+	margin-top: 12px;
+	line-height: 22px;
+	position: relative;
+	padding-left: 15px;
+}
+@media only screen and (max-width: 675px) {
+	.sun-video-details .sun-video-description {
+		font-size: 16px;
+	}
+}
+.sun-video-details .sun-video-description:before {
+	width: 5px;
+	height: calc(100% - 5px);
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+.sun-video-details .sun-video-linked-article {
+	display: block;
+	margin-top: 15px;
+}
+.sun-video-details .sun-video-linked-article a {
+	font-size: 16px;
+	font-family: "Roboto Slab", "Helvetica Neue", Arial, sans-serif;
+	position: relative;
+	text-decoration: none;
+}
+.sun-video-details .sun-video-linked-article a:after {
+	content: '';
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/scrollarrow.svg');
+	width: 6px;
+	height: 9px;
+	position: absolute;
+	right: -10px;
+	top: 8px;
+}
+@media only screen and (max-width: 675px) {
+	.sun-video-details .sun-video-linked-article a {
+		font-size: 14px;
+	}
+	.sun-video-details .sun-video-linked-article a:after {
+		top: 7px;
+	}
+}
+.sun-video-details {
+	margin-bottom:20px;
+}
+.article__published, .article__updated {
+	font-family: "Roboto Slab", serif;
+	display: inline-block;
+	color: #adafb0;
+	line-height: 18px;
+	font-size: 13px;
+}
+.article__published {
+	padding-right: 5px;
+}
+.article__updated {
+	padding-left: 8px;
+	border-left: 1px solid #adafb0;
+	display: inline;
+}
+.article__published .article__timestamp, .article__updated .article__timestamp {
+	text-transform: lowercase;
+}
+@media only screen and (max-width: 675px) {
+	.article__quote:before {
+		content: none;
+	}
+	.article__published, .article__updated {
+		display: block;
+		line-height: 16px;
+		font-size: 12px;
+	}
+	.article__updated {
+		padding-left: 0;
+		border: none;
+	}
+	.article__author-name, .article__author-role {
+		font-size: 12px;
+	}
+	.article-slug__copy {
+		font-size: 19px;
+	}
+}
+.amp-section {
+	display: block;
+}
+.autotrader-fullwidth {
+	height: 270px;
+	margin-bottom: 21px;
+}
+.autotrader-fullwidth amp-iframe {
+	height: 270px;
+}
+.homepage-link .logo {
+	width: 112px;
+	margin-left: 10px;
+	margin-top: -3px;
+	background-position: center;
+}
+.homepage-link h3 {
+	font-size: 16px;
+}
+@media only screen and (max-width: 675px) {
+	.article__quote .article__quote-copy.theme__before-color:before {
+		left: 0;
+		width: 45px;
+		height: 45px;
+	}
+}
+.theme .article__subdeck p, .theme .article__subdeck ol, .theme-main .article__subdeck p, .theme-main .article__subdeck ol, .theme-video .article__subdeck p, .theme-video .article__subdeck ol, .theme .theme__border-color, .theme-main .theme__border-color, .theme-video .theme__border-color {
+	border-color: #EB1701;
+}
+.theme-main .article__quote-copy:before, .theme .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_sunred.svg');
+}
+.theme-main .article-boxout__headline {
+	border-color: #A5171C;
+}
+.theme .article-boxout__content ul:last-child li:last-child:after, .theme-main .article-boxout__content p:last-child:after,
+.theme .article-boxout__content ol:last-child li:last-child:after, .theme .article-boxout__content p:last-child:after,
+.theme-main .article-boxout__content ul:last-child li:last-child:after, .theme-main .article-boxout__content ol:last-child li:last-child:after {
+	background-color: #EB1701;
+}
+.theme .teaser-slug__copy, .theme .article-data__item .icon, .theme .article__content ul li:before,
+.theme .article__subdeck--bullet ul li:before, .theme .theme__background-color, .theme .theme__before-color:before,
+.theme .theme__after-color:after, .theme .theme__article-list li:before {
+	background-color: #EB1701;
+}
+.theme .article__content p a, .theme .theme__copy-color, .theme-main .amp-more a {
+	color: #EB1701;
+}
+.theme .theme__background-color-rgba-20 {
+	background-color: rgba(235, 23, 1, 0.2);
+}
+.theme .theme__background-color-rgba-80 {
+	background-color: rgba(235, 23, 1, 0.8);
+}
+.theme-main .teaser-slug__copy, .theme-main .article-data__item .icon, .theme-main .article__content ul li:before,
+.theme-main .article__subdeck--bullet ul li:before, .theme-main .theme__background-color, .theme-main .theme__before-color:before,
+.theme-main .theme__after-color:after, .theme-main .theme__article-list li:before {
+	background-color: #EB1701;
+}
+.theme-main .article__content p a, .theme-main .theme__copy-color {
+	color: #EB1701;
+}
+.theme-main .theme__background-color-rgba-20 {
+	background-color: rgba(235, 23, 1, 0.2);
+}
+.theme-main .theme__background-color-rgba-80 {
+	background-color: rgba(235, 23, 1, 0.8);
+}
+.amp-section {
+	display: block;
+}
+.autotrader-fullwidth {
+	height: 270px;
+	margin-bottom: 21px;
+}
+.autotrader-fullwidth amp-iframe {
+	height: 270px;
+}
+amp-ad[type="doubleclick"] {
+	margin: 0 auto;
+}
+
+.autotrader-fullwidth amp-iframe {
+	width: 100%;
+	height: 275px;
+	margin: 0 auto 20px;
+	display: block;
+}
+@media only screen and (max-width: 359px) {
+	.autotrader-fullwidth {
+		margin-left: -10px;
+	}
+}
+
+.theme .sun-video-linked-article a, .theme-main .sun-video-linked-article a {
+	color: #EB1701;
+}
+.theme .sun-video-linked-article a:after, .theme-main .sun-video-linked-article a:after {
+	background-color: #EB1701;
+}
+.theme .sun-video-description:before, .theme-main .sun-video-description:before {
+	background-color: #EB1701;
+}
+
+.tags {
+	font-family: "Roboto Slab";
+	display: inline-block;
+	margin-top: 3px;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.tags .tags__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.tags--article .tags__item:first-child {
+	background-color: #FFFFFF;
+	margin: 0;
+	font-size: 15px;
+}
+
+.tags--article .tags__item:first-child::after {
+	background-color: #FFFFFF;
+	margin: 0;
+	width:0;
+}
+
+.tags .tags__item {
+	position: relative;
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 5px 20px 6px 8px;
+	background-color: #EAEEEF;
+}
+
+.tags .tags__item a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #232327;
+}
+
+.tags .tags__item:before {
+	width :0;
+}
+
+.tags .tags__item:after {
+	content: "";
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 5px;
+	height: 7px;
+	position: absolute;
+	right: 8px;
+	top: 11px;
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjcuNSAwIDM1IDUwIj48cGF0aCBmaWxsPSIjRUFFRUVGIiBkPSJNNy41IDB2NTBoMzVWMjVMMTQuMDU0IDQ4Ljk5Yy0xLjczMiAxLjM5LTQuMTYgMS4zOS01LjU0Ni0uMzQ3LTEuMzg2LTEuNzM2LTEuMzg2LTQuMTY4LjM0OC01LjU1N0wzMC4zNyAyNSA4Ljg1NiA2LjkxM2MtMS43MzMtMS4zOS0xLjczMy0zLjgyLS4zNDctNS41NTZDOS44OTUtLjM4IDEyLjMyLS4zOCAxNC4wNTQgMS4wMUw0Mi41IDI1VjBoLTM1eiIvPjwvc3ZnPg==');
+}
+
+.theme .sun-video-linked-article a, .theme-main .sun-video-linked-article a {
+	color: #EB1701;
+}
+.theme .sun-video-linked-article a:after, .theme-main .sun-video-linked-article a:after {
+	background-color: #EB1701;
+}
+.theme .sun-video-description:before, .theme-main .sun-video-description:before {
+	background-color: #EB1701;
+}
+.theme .sun-video-description a, .theme-main .sun-video-description a {
+	color: #EB1701;
+}
+.sun-video-description a, .article__subdeck a {
+	text-decoration: none;
+}
+.theme-showbiz .article__subdeck p, .theme-showbiz .article__subdeck ol, .theme-showbiz .theme__border-color {
+	border-color: #9C73C1;
+}
+.theme-football .article__subdeck p, .theme-football .article__subdeck ol, .theme-football .theme__border-color {
+	border-color: #419071;
+}
+.theme-sport .article__subdeck p, .theme-sport .article__subdeck ol, .theme-sport .theme__border-color {
+	border-color: #308392;
+}
+.theme-living .article__subdeck p, .theme-living .article__subdeck ol, .theme-living .theme__border-color {
+	border-color: #E465BE;
+}
+.theme-news .article__subdeck p, .theme-news .article__subdeck ol, .theme-news .theme__border-color {
+	border-color: #4085CB;
+}
+.theme-motors .article__subdeck p, .theme-motors .article__subdeck ol, .theme-motors .theme__border-color {
+	border-color: #4d64ce;
+}
+.theme-travel .article__subdeck p, .theme-travel .article__subdeck ol, .theme-travel .theme__border-color {
+	border-color: #ffa111;
+}
+.theme-money .article__subdeck p, .theme-money .article__subdeck ol, .theme-money .theme__border-color {
+	border-color: #a64470;
+}
+.theme-tech .article__subdeck p, .theme-tech .article__subdeck ol, .theme-tech .theme__border-color {
+	border-color: #9eaabb;
+}
+.theme-showbiz .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_showbiz.svg');
+}
+.theme-football .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_football.svg');
+}
+.theme-sport .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_sport.svg');
+}
+.theme-living .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_living.svg');
+}
+.theme-news .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_news.svg');
+}
+.theme-motors .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_motors.svg');
+}
+.theme-travel .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_travel.svg');
+}
+.theme-money .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_money.svg');
+}
+.theme-tech .article__quote-copy:before {
+	background-image: url('/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/images/pull-quotes/quote_tech.svg');
+}
+.theme-showbiz .article-boxout__headline {
+	border-color: #583B73;
+}
+.theme-football .article-boxout__headline {
+	border-color: #2C644E;
+}
+.theme-sport .article-boxout__headline {
+	border-color: #22616D;
+}
+.theme-living .article-boxout__headline {
+	border-color: #A23C84;
+}
+.theme-news .article-boxout__headline {
+	border-color: #24588C;
+}
+.theme-video .article-boxout__headline {
+	border-color: #A5171C;
+}
+.theme-motors .article-boxout__headline {
+	border-color: #35488d;
+}
+.theme-travel .article-boxout__headline {
+	border-color: #fc750e;
+}
+.theme-money .article-boxout__headline {
+	border-color: #802b51;
+}
+.theme-tech .article-boxout__headline {
+	border-color: #7a8491;
+}
+.theme-showbiz .article-boxout__content ul:last-child li:last-child:after,
+.theme-showbiz .article-boxout__content ol:last-child li:last-child:after,
+.theme-showbiz .article-boxout__content p:last-child:after {
+	background-color: #9C73C1;
+}
+.theme-football .article-boxout__content ul:last-child li:last-child:after,
+.theme-football .article-boxout__content ol:last-child li:last-child:after,
+.theme-football .article-boxout__content p:last-child:after {
+	background-color: #419071;
+}
+.theme-sport .article-boxout__content ul:last-child li:last-child:after,
+.theme-sport .article-boxout__content ol:last-child li:last-child:after,
+.theme-sport .article-boxout__content p:last-child:after {
+	background-color: #308392;
+}
+.theme-living .article-boxout__content ul:last-child li:last-child:after,
+.theme-living .article-boxout__content ol:last-child li:last-child:after,
+.theme-living .article-boxout__content p:last-child:after {
+	background-color: #E465BE;
+}
+.theme-news .article-boxout__content ul:last-child li:last-child:after,
+.theme-news .article-boxout__content ol:last-child li:last-child:after,
+.theme-news .article-boxout__content p:last-child:after {
+	background-color: #4085CB;
+}
+.theme-video .article-boxout__content ul:last-child li:last-child:after,
+.theme-video .article-boxout__content ol:last-child li:last-child:after,
+.theme-video .article-boxout__content p:last-child:after {
+	background-color: #EB1701;
+}
+.theme-motors .article-boxout__content ul:last-child li:last-child:after,
+.theme-motors .article-boxout__content ol:last-child li:last-child:after,
+.theme-motors .article-boxout__content p:last-child:after {
+	background-color: #4d64ce;
+}
+.theme-travel .article-boxout__content ul:last-child li:last-child:after,
+.theme-travel .article-boxout__content ol:last-child li:last-child:after,
+.theme-travel .article-boxout__content p:last-child:after {
+	background-color: #ffa111;
+}
+.theme-money .article-boxout__content ul:last-child li:last-child:after,
+.theme-money .article-boxout__content ol:last-child li:last-child:after,
+.theme-money .article-boxout__content p:last-child:after {
+	background-color: #a64470;
+}
+.theme-tech .article-boxout__content ul:last-child li:last-child:after,
+.theme-tech .article-boxout__content ol:last-child li:last-child:after,
+.theme-tech .article-boxout__content p:last-child:after {
+	background-color: #9eaabb;
+}
+
+.theme-showbiz .teaser-slug__copy, .theme-showbiz .article-data__item .icon, .theme-showbiz .article__content ul li:before,
+.theme-showbiz .article__subdeck--bullet ul li:before, .theme-showbiz .theme__background-color, .theme-showbiz .theme__before-color:before,
+.theme-showbiz .theme__after-color:after, .theme-showbiz .theme__article-list li:before {
+	background-color: #9C73C1;
+}
+.theme-showbiz .article__content p a, .theme-showbiz .theme__copy-color, .theme-showbiz .amp-more a {
+	color: #9C73C1;
+}
+.theme-showbiz .theme__background-color-rgba-20 {
+	background-color: rgba(156, 115, 193, 0.2);
+}
+.theme-showbiz .theme__background-color-rgba-80 {
+	background-color: rgba(156, 115, 193, 0.8);
+}
+.theme-football .teaser-slug__copy, .theme-football .article-data__item .icon, .theme-football .article__content ul li:before,
+.theme-football .article__subdeck--bullet ul li:before, .theme-football .theme__background-color, .theme-football .theme__before-color:before,
+.theme-football .theme__after-color:after, .theme-football .theme__article-list li:before {
+	background-color: #419071;
+}
+.theme-football .article__content p a, .theme-football .theme__copy-color, .theme-football .amp-more a {
+	color: #419071;
+}
+.theme-football .theme__background-color-rgba-20 {
+	background-color: rgba(65, 144, 113, 0.2);
+}
+.theme-football .theme__background-color-rgba-80 {
+	background-color: rgba(65, 144, 113, 0.8);
+}
+.theme-sport .teaser-slug__copy, .theme-sport .article-data__item .icon, .theme-sport .article__content ul li:before,
+.theme-sport .article__subdeck--bullet ul li:before, .theme-sport .theme__background-color, .theme-sport .theme__before-color:before,
+.theme-sport .theme__after-color:after, .theme-sport .theme__article-list li:before {
+	background-color: #308392;
+}
+.theme-sport .article__content p a, .theme-sport .theme__copy-color, .theme-sport .amp-more a {
+	color: #308392;
+}
+.theme-sport .theme__background-color-rgba-20 {
+	background-color: rgba(48, 131, 146, 0.2);
+}
+.theme-sport .theme__background-color-rgba-80 {
+	background-color: rgba(48, 131, 146, 0.8);
+}
+.theme-living .teaser-slug__copy, .theme-living .article-data__item .icon, .theme-living .article__content ul li:before,
+.theme-living .article__subdeck--bullet ul li:before, .theme-living .theme__background-color, .theme-living .theme__before-color:before,
+.theme-living .theme__after-color:after, .theme-living .theme__article-list li:before {
+	background-color: #E465BE;
+}
+.theme-living .article__content p a, .theme-living .theme__copy-color, .theme-living .amp-more a {
+	color: #E465BE;
+}
+.theme-living .theme__background-color-rgba-20 {
+	background-color: rgba(228, 101, 190, 0.2);
+}
+.theme-living .theme__background-color-rgba-80 {
+	background-color: rgba(228, 101, 190, 0.8);
+}
+.theme-news .teaser-slug__copy, .theme-news .article-data__item .icon, .theme-news .article__content ul li:before,
+.theme-news .article__subdeck--bullet ul li:before, .theme-news .theme__background-color, .theme-news .theme__before-color:before,
+.theme-news .theme__after-color:after, .theme-news .theme__article-list li:before {
+	background-color: #4085CB;
+}
+.theme-news .article__content p a, .theme-news .theme__copy-color, .theme-news .amp-more a {
+	color: #4085CB;
+}
+.theme-news .theme__background-color-rgba-20 {
+	background-color: rgba(64, 133, 203, 0.2);
+}
+.theme-news .theme__background-color-rgba-80 {
+	background-color: rgba(64, 133, 203, 0.8);
+}
+.theme-video .teaser-slug__copy, .theme-video .article-data__item .icon, .theme-video .article__content ul li:before,
+.theme-video .article__subdeck--bullet ul li:before, .theme-video .theme__background-color, .theme-video .theme__before-color:before,
+.theme-video .theme__after-color:after, .theme-video .theme__article-list li:before {
+	background-color: #EB1701;
+}
+.theme-video .article__content p a, .theme-video .theme__copy-color {
+	color: #EB1701;
+}
+.theme-video .theme__background-color-rgba-20 {
+	background-color: rgba(235, 23, 1, 0.2);
+}
+.theme-video .theme__background-color-rgba-80 {
+	background-color: rgba(235, 23, 1, 0.8);
+}
+.theme-motors .teaser-slug__copy, .theme-motors .article-data__item .icon, .theme-motors .article__content ul li:before,
+.theme-motors .article__subdeck--bullet ul li:before, .theme-motors .theme__background-color, .theme-motors .theme__before-color:before,
+.theme-motors .theme__after-color:after, .theme-motors .theme__article-list li:before {
+	background-color: #4d64ce;
+}
+.theme-motors .article__content p a, .theme-motors .theme__copy-color, .theme-motors .amp-more a {
+	color: #4d64ce;
+}
+.theme-motors .theme__background-color-rgba-20 {
+	background-color: rgba(77, 100, 206, 0.2);
+}
+.theme-motors .theme__background-color-rgba-80 {
+	background-color: rgba(77, 100, 206, 0.8);
+}
+.theme-travel .teaser-slug__copy, .theme-travel .article-data__item .icon, .theme-travel .article__content ul li:before,
+.theme-travel .article__subdeck--bullet ul li:before, .theme-travel .theme__background-color, .theme-travel .theme__before-color:before,
+.theme-travel .theme__after-color:after, .theme-travel .theme__article-list li:before {
+	background-color: #ffa111;
+}
+.theme-travel .article__content p a, .theme-travel .theme__copy-color, .theme-travel .amp-more a {
+	color: #ffa111;
+}
+.theme-travel .theme__background-color-rgba-20 {
+	background-color: rgba(255, 161, 17, 0.2);
+}
+.theme-travel .theme__background-color-rgba-80 {
+	background-color: rgba(255, 161, 17, 0.8);
+}
+.theme-money .teaser-slug__copy, .theme-money .article-data__item .icon, .theme-money .article__content ul li:before,
+.theme-money .article__subdeck--bullet ul li:before, .theme-money .theme__background-color, .theme-money .theme__before-color:before,
+.theme-money .theme__after-color:after, .theme-money .theme__article-list li:before {
+	background-color: #a64470;
+}
+.theme-money .article__content p a, .theme-money .theme__copy-color, .theme-money .amp-more a {
+	color: #a64470;
+}
+.theme-money .theme__background-color-rgba-20 {
+	background-color: rgba(166, 68, 112, 0.2);
+}
+.theme-money .theme__background-color-rgba-80 {
+	background-color: rgba(166, 68, 112, 0.8);
+}
+.theme-tech .teaser-slug__copy, .theme-tech .article-data__item .icon, .theme-tech .article__content ul li:before,
+.theme-tech .article__subdeck--bullet ul li:before, .theme-tech .theme__background-color, .theme-tech .theme__before-color:before,
+.theme-tech .theme__after-color:after, .theme-tech .theme__article-list li:before {
+	background-color: #9eaabb;
+}
+.theme-tech .article__content p a, .theme-tech .theme__copy-color, .theme-tech .amp-more a {
+	color: #9eaabb;
+}
+.theme-tech .theme__background-color-rgba-20 {
+	background-color: rgba(158, 170, 187, 0.2);
+}
+.theme-tech .theme__background-color-rgba-80 {
+	background-color: rgba(158, 170, 187, 0.8);
+}
+.theme-showbiz .sun-video-linked-article a {
+	color: #9C73C1;
+}
+.theme-showbiz .sun-video-linked-article a:after, .theme-showbiz .sun-video-description:before {
+	background-color: #9C73C1;
+}
+.theme-football .sun-video-linked-article a {
+	color: #419071;
+}
+.theme-football .sun-video-linked-article a:after, .theme-football .sun-video-description:before {
+	background-color: #419071;
+}
+.theme-sport .sun-video-linked-article a {
+	color: #308392;
+}
+.theme-sport .sun-video-linked-article a:after, .theme-sport .sun-video-description:before {
+	background-color: #308392;
+}
+.theme-living .sun-video-linked-article a {
+	color: #E465BE;
+}
+.theme-living .sun-video-linked-article a:after, .theme-living .sun-video-description:before {
+	background-color: #E465BE;
+}
+.theme-news .sun-video-linked-article a {
+	color: #4085CB;
+}
+.theme-news .sun-video-linked-article a:after, .theme-news .sun-video-description:before {
+	background-color: #4085CB;
+}
+.theme-video .sun-video-linked-article a {
+	color: #EB1701;
+}
+.theme-video .sun-video-linked-article a:after, .theme-video .sun-video-description:before {
+	background-color: #EB1701;
+}
+.theme-motors .sun-video-linked-article a {
+	color: #4d64ce;
+}
+.theme-motors .sun-video-linked-article a:after, .theme-motors .sun-video-description:before {
+	background-color: #4d64ce;
+}
+.theme-travel .sun-video-linked-article a {
+	color: #ffa111;
+}
+.theme-travel .sun-video-linked-article a:after, .theme-travel .sun-video-description:before {
+	background-color: #ffa111;
+}
+.theme-money .sun-video-linked-article a {
+	color: #a64470;
+}
+.theme-money .sun-video-linked-article a:after, .theme-money .sun-video-description:before {
+	background-color: #a64470;
+}
+.theme-tech .sun-video-linked-article a {
+	color: #9eaabb;
+}
+.theme-tech .sun-video-linked-article a:after, .theme-tech .sun-video-description:before {
+	background-color: #9eaabb;
+}
+.theme-showbiz .sun-video-description a {
+	color: #9C73C1;
+}
+.theme-football .sun-video-description a {
+	color: #419071;
+}
+.theme-sport .sun-video-description a {
+	color: #308392;
+}
+.theme-living .sun-video-description a {
+	color: #E465BE;
+}
+.theme-news .sun-video-description a {
+	color: #4085CB;
+}
+.theme-video .sun-video-description a {
+	color: #EB1701;
+}
+.theme-motors .sun-video-description a {
+	color: #4d64ce;
+}
+.theme-travel .sun-video-description a {
+	color: #ffa111;
+}
+.theme-money .sun-video-description a {
+	color: #a64470;
+}
+.theme-tech .sun-video-description a {
+	color: #9eaabb;
+}
+		</style><title>Brightcove one more article – [Develop] The Sun</title><link href="https://www-dev.uat-thesun.co.uk/sport/53279/brightcove-one-more-article/" rel=canonical><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript></head><body>
+
+	
+
+<amp-analytics id=analytics1 type=googleanalytics>
+	<script type="application/json">
+		{"vars":{"account":"UA-80503447-1"},"triggers":{"trackPageview":{"on":"visible","request":"pageview","vars":{"title":"Brightcove one more article"}}}}	</script>
+</amp-analytics>
+
+<amp-analytics type=parsely><script type="application/json">{"vars":{"apikey":"www-dev.uat-thesun.co.uk"}}</script></amp-analytics><amp-analytics type=comscore><script type="application/json">{"vars":{"c2":"6035523"},"extraUrlParams":{"comscorekw":"amp"}}</script></amp-analytics><amp-iframe class="amp-analytics amp-tealium amp-section" frameborder=0 height=1 layout=fixed sandbox="allow-scripts allow-same-origin" src="https://www-dev.uat-thesun.co.uk/amp-tealium?amp_page_site_name=the%20sun%20amp&amp;page_site_region=uk&amp;page_name=article:%20Brightcove%20one%20more%20article&amp;page_section=Sport&amp;page_type=article&amp;article_name=Brightcove%20one%20more%20article&amp;article_publish_timestamp=2017/05/11%2007:01%20Thursday&amp;article_id=53279&amp;article_author=ramasamy" width=1><amp-img height=1 layout=fill placeholder src="/i/s/www-dev.uat-thesun.co.uk/wp-content/themes/thesun/inc/amp/placeholder.png" width=1></amp-img></amp-iframe>
+	<div class="theme-main theme-football article_standard">
+
+		<nav class="amp-wp-title-bar">
+			<div>
+				<a href="https://www-dev.uat-thesun.co.uk/" target="_top" title="[Develop] The Sun">
+					[Develop] The Sun				</a>
+			</div>
+		</nav>
+
+		<div class="article__content">
+			
+	<div class="amp-more theme__copy-color">
+		<a href="https://www-dev.uat-thesun.co.uk/sport/football/" target="_top"><span class="amp-more-alt">More</span> Football</a>
+	</div>
+
+
+<header class="article__header">
+	<div class="article__strapline">
+	</div>
+
+	
+<section class="article__headline-section">
+			<span class="article__kicker theme__copy-color">Brightcove one more article</span>
+		<h1 class="article__headline">Brightcove one more article</h1></section>
+
+		<div class="article__subdeck theme__border-color">
+		<p>Brightcove one more article</p>
+	</div>
+	</header>
+
+<div class="article__meta">
+
+	
+	<div class="article__name-date">
+					<div class="article__author">
+				<span class="article__author-name">
+					<a class="author url fn" href="https://www-dev.uat-thesun.co.uk/author/ramasamy/" rel=author target="_top" title="Posts by ramasamy">ramasamy</a>				</span>
+				<span class="article__author-role">
+									</span>
+			</div>
+		
+		<div class="article__time">
+			<div class="article__published">
+				<span>11th May 2017,</span>
+				<span class="article__timestamp">7:01 am</span>
+			</div>
+
+				</div>
+
+	</div>
+</div>
+
+<div class="social-box">
+
+	<amp-social-share height=36 layout=fixed type=twitter width=36>
+
+	</amp-social-share>
+
+	<amp-social-share data-param-app_id=987078678011426 data-param-href="https://www-dev.uat-thesun.co.uk/sport/53279/brightcove-one-more-article/" data-param-title=TITLE height=36 layout=fixed type=facebook width=36>
+	</amp-social-share>
+	
+	<amp-social-share data-param-text="TITLE - CANONICAL_URL" data-share-endpoint="whatsapp://send" height=36 layout=fixed type=whatsapp width=36>
+	</amp-social-share>
+</div>
+			<div class="article_content_body">
+				<p class="article__content article__content--intro">Brightcove one more article</p>
+<amp-brightcove data-account=5067014667001 data-player=default data-video-id=5429244618001 height=335 id="bcvideo-5429244618001" layout=responsive width=600></amp-brightcove><p>2nd Video</p>
+<div class="amp-adv-section"><amp-ad data-slot="/25436805/d.thesun/sport/football/premierleague" height=250 json="{&quot;targeting&quot;:{&quot;AMP&quot;:&quot;true&quot;,&quot;tagForChildDirectedTreatment&quot;:1,&quot;section&quot;:&quot;25436805%2Fd.thesun%2Fsport%2Ffootball%2Fpremierleague&quot;,&quot;path&quot;:&quot;https:\/\/www-dev.uat-thesun.co.uk\/sport\/53279\/brightcove-one-more-article\/&quot;,&quot;sec_id&quot;:11,&quot;cont_type&quot;:&quot;art&quot;,&quot;kw&quot;:&quot;Brightcove%20one%20more%20article%2CBrightcove%20one%20more%20article%0A%2C&quot;,&quot;slug&quot;:&quot;&quot;,&quot;topics&quot;:&quot;&quot;,&quot;om_v_id&quot;:&quot;null&quot;,&quot;om_ses_id&quot;:&quot;null&quot;,&quot;om_s_id&quot;:&quot;null&quot;,&quot;mpu&quot;:1,&quot;eid&quot;:&quot;null&quot;,&quot;ppid&quot;:&quot;null&quot;,&quot;aid&quot;:53279,&quot;vid&quot;:&quot;null&quot;,&quot;search&quot;:&quot;null&quot;,&quot;article_type&quot;:&quot;post&quot;,&quot;viewport&quot;:&quot;null&quot;,&quot;refresh&quot;:false,&quot;C&quot;:&quot;null&quot;,&quot;A&quot;:&quot;null&quot;,&quot;G&quot;:&quot;null&quot;,&quot;P&quot;:&quot;null&quot;,&quot;pos&quot;:&quot;mpu&quot;}}" type=doubleclick width=300></amp-ad></div><p> </p>
+<amp-brightcove data-account=5067014667001 data-player=default data-video-id=5428685387001 height=335 id="bcvideo-5428685387001" layout=responsive width=600></amp-brightcove><p>3rd Video</p>
+<div class="amp-adv-section"><amp-ad data-slot="/25436805/d.thesun.amp/sport/football/premierleague" height=1 json="{&quot;useSameDomainRenderingUntilDeprecated&quot;:1}" layout=responsive type=doubleclick width=300></amp-ad></div><p> </p>
+<amp-brightcove data-account=5067014667001 data-player=default data-video-id=5426417417001 height=335 id="bcvideo-5426417417001" layout=responsive width=600></amp-brightcove>			</div>
+			
+			
+							<div class="tags tags--article">
+									</div>
+			
+			<div class="social-box">
+
+	<amp-social-share height=36 layout=fixed type=twitter width=36>
+
+	</amp-social-share>
+
+	<amp-social-share data-param-app_id=987078678011426 data-param-href="https://www-dev.uat-thesun.co.uk/sport/53279/brightcove-one-more-article/" data-param-title=TITLE height=36 layout=fixed type=facebook width=36>
+	</amp-social-share>
+	
+	<amp-social-share data-param-text="TITLE - CANONICAL_URL" data-share-endpoint="whatsapp://send" height=36 layout=fixed type=whatsapp width=36>
+	</amp-social-share>
+</div>
+
+											<div class="amp-adv-section">
+					<amp-ad data-slot="/25436805/d.thesun/sport/football/premierleague" height=250 json="{&quot;targeting&quot;:{&quot;AMP&quot;:&quot;true&quot;,&quot;tagForChildDirectedTreatment&quot;:1,&quot;section&quot;:&quot;25436805%2Fd.thesun%2Fsport%2Ffootball%2Fpremierleague&quot;,&quot;path&quot;:&quot;https:\/\/www-dev.uat-thesun.co.uk\/sport\/53279\/brightcove-one-more-article\/&quot;,&quot;sec_id&quot;:11,&quot;cont_type&quot;:&quot;art&quot;,&quot;kw&quot;:&quot;Brightcove%20one%20more%20article%2CBrightcove%20one%20more%20article%0A%2C&quot;,&quot;slug&quot;:&quot;&quot;,&quot;topics&quot;:&quot;&quot;,&quot;om_v_id&quot;:&quot;null&quot;,&quot;om_ses_id&quot;:&quot;null&quot;,&quot;om_s_id&quot;:&quot;null&quot;,&quot;mpu&quot;:1,&quot;eid&quot;:&quot;null&quot;,&quot;ppid&quot;:&quot;null&quot;,&quot;aid&quot;:53279,&quot;vid&quot;:&quot;null&quot;,&quot;search&quot;:&quot;null&quot;,&quot;article_type&quot;:&quot;post&quot;,&quot;viewport&quot;:&quot;null&quot;,&quot;refresh&quot;:false,&quot;C&quot;:&quot;null&quot;,&quot;A&quot;:&quot;null&quot;,&quot;G&quot;:&quot;null&quot;,&quot;P&quot;:&quot;null&quot;,&quot;pos&quot;:&quot;mpu2&quot;}}" type=doubleclick width=300>
+					</amp-ad>
+				</div>
+						
+			
+							<div class="amp-more theme__copy-color amp-more-footer">
+					<a href="https://www-dev.uat-thesun.co.uk/sport/football/" target="_top"><span class="amp-more-alt">More</span> Football</a>
+				</div>
+			
+			
+<amp-iframe frameborder=0 height=100 layout=responsive resizable sandbox="allow-top-navigation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" src="https://widgets.outbrain.com/hub/amp.html#ampURL=https%3A%2F%2Fwww-dev.uat-thesun.co.uk%2Fsport%2F53279%2Fbrightcove-one-more-article%2Famp&amp;htmlURL=https%3A%2F%2Fwww-dev.uat-thesun.co.uk%2Fsport%2F53279%2Fbrightcove-one-more-article%2F&amp;referrer=https%3A%2F%2Fwww-dev.uat-thesun.co.uk&amp;index=0&amp;widgetIds=AMP_1,AMP_2&amp;testMode=false&amp;styleFile=https%3A%2F%2Fwww.outbrain.com%2Fassets%2Fstylesheets%2Fsite.css&amp;originTarget=*&amp;version=2" width=100>
+    <div aria-label="Outbrain Recommendations" overflow role=button tabindex=0>Outbrain</div>
+</amp-iframe>
+		</div>
+
+			<amp-pixel src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A4.9&amp;blog=108838145&amp;post=53279&amp;tz=1&amp;srv=www-dev.uat-thesun.co.uk&amp;host=www-dev.uat-thesun.co.uk&amp;rand=RANDOM&amp;ref=DOCUMENT_REFERRER"></amp-pixel>
+	<amp-analytics id=parsely type=parsely><script type="application/json">{"vars":{"apikey":"www-dev.uat-thesun.co.uk"}}</script></amp-analytics>
+	</div>
+					
+		<amp-sticky-ad layout=nodisplay>
+			<amp-ad data-slot="/25436805/d.thesun/sport/football/premierleague" height=50 json="{&quot;targeting&quot;:{&quot;AMP&quot;:&quot;true&quot;,&quot;tagForChildDirectedTreatment&quot;:1,&quot;section&quot;:&quot;25436805%2Fd.thesun%2Fsport%2Ffootball%2Fpremierleague&quot;,&quot;path&quot;:&quot;https:\/\/www-dev.uat-thesun.co.uk\/sport\/53279\/brightcove-one-more-article\/&quot;,&quot;sec_id&quot;:11,&quot;cont_type&quot;:&quot;art&quot;,&quot;kw&quot;:&quot;Brightcove%20one%20more%20article%2CBrightcove%20one%20more%20article%0A%2C&quot;,&quot;slug&quot;:&quot;&quot;,&quot;topics&quot;:&quot;&quot;,&quot;om_v_id&quot;:&quot;null&quot;,&quot;om_ses_id&quot;:&quot;null&quot;,&quot;om_s_id&quot;:&quot;null&quot;,&quot;mpu&quot;:1,&quot;eid&quot;:&quot;null&quot;,&quot;ppid&quot;:&quot;null&quot;,&quot;aid&quot;:53279,&quot;vid&quot;:&quot;null&quot;,&quot;search&quot;:&quot;null&quot;,&quot;article_type&quot;:&quot;post&quot;,&quot;viewport&quot;:&quot;null&quot;,&quot;refresh&quot;:false,&quot;C&quot;:&quot;null&quot;,&quot;A&quot;:&quot;null&quot;,&quot;G&quot;:&quot;null&quot;,&quot;P&quot;:&quot;null&quot;,&quot;pos&quot;:&quot;leaderboard&quot;}}" type=doubleclick width=320>
+			</amp-ad>
+		</amp-sticky-ad>
+	
+
+
+</body></html>
